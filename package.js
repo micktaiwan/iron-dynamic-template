@@ -27,7 +27,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.versionsFrom('METEOR@0.9.2');
+  api.versionsFrom('2.0');
 
   api.use('iron:dynamic-template');
   api.use('templating');
